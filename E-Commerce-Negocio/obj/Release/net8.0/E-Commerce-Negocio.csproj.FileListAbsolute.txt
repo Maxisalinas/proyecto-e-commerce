@@ -1,0 +1,17 @@
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Negocio.deps.json
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Negocio.runtimeconfig.json
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Negocio.dll
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Negocio.pdb
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Comun.dll
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\bin\Release\net8.0\E-Commerce-Comun.pdb
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.csproj.AssemblyReference.cache
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.GeneratedMSBuildEditorConfig.editorconfig
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.AssemblyInfoInputs.cache
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.AssemblyInfo.cs
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.csproj.CoreCompileInputs.cache
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commer.C24852B7.Up2Date
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.dll
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\refint\E-Commerce-Negocio.dll
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.pdb
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\E-Commerce-Negocio.genruntimeconfig.cache
+Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Release\net8.0\ref\E-Commerce-Negocio.dll

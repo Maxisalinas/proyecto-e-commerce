@@ -11,6 +11,7 @@ namespace E_Commerce_Comun.Entidades
     {
         [Required(ErrorMessage = "Debe ingresar un nombre.")]
         [StringLength(50, MinimumLength = 1, ErrorMessage = "El nombre no puede contener más de 50 caracteres.")]
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+        public string LogoImageUrl { get; set; } = string.Empty;
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\a\\Archivos\\Proyectos\\E-Commerce-Solution\\E-Commerce-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj": {}
+    "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj": {}
   },
   "projects": {
-    "Q:\\a\\Archivos\\Proyectos\\E-Commerce-Solution\\E-Commerce-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj": {
+    "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\a\\Archivos\\Proyectos\\E-Commerce-Solution\\E-Commerce-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
+        "projectUniqueName": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
         "projectName": "E-Commerce-Comun",
-        "projectPath": "Q:\\a\\Archivos\\Proyectos\\E-Commerce-Solution\\E-Commerce-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
+        "projectPath": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "Q:\\a\\Archivos\\Proyectos\\E-Commerce-Solution\\E-Commerce-Solution\\E-Commerce-Comun\\obj\\",
+        "outputPath": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -83,6 +87,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
             }
           },
           "imports": [

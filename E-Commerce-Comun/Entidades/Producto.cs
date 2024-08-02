@@ -10,9 +10,12 @@ namespace E_Commerce_Comun.Entidades
 {
     public class Producto : EntidadBase
     {
+        [Required(ErrorMessage = "Debe ingresar un nombre.")]
+        [StringLength(100, MinimumLength = 1, ErrorMessage = "El nombre debe contener entre 1 y 100 caracteres.")]
+        public string Nombre { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe ingresar un modelo.")]
-        [StringLength(100, MinimumLength = 1, ErrorMessage = "El modelo no puede contener más de 100 caracteres.")]
-        public string Modelo { get; set; }
+        [StringLength(100, MinimumLength = 1, ErrorMessage = "El modelo debe contener entre 1 y 100 caracteres.")]
+        public string Modelo { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe seleccionar una marca.")]
         [ForeignKey(nameof(Marca))]
         public long IdMarca { get; set; }
@@ -23,7 +26,7 @@ namespace E_Commerce_Comun.Entidades
         public Categoria Categoria { get; set; }
         [Required(ErrorMessage = "Debe ingresar una descripción.")]
         [StringLength(800, MinimumLength = 1, ErrorMessage = "La descripción no puede contener más de 800 caracteres.")]
-        public string Descripcion { get; set; }
+        public string Descripcion { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe ingresar un precio.")]
         public decimal Precio { get; set; }
         [Required(ErrorMessage = "Debe ingresar un talle.")]
@@ -33,6 +36,6 @@ namespace E_Commerce_Comun.Entidades
         [ForeignKey(nameof(Genero))]
         public long IdGenero { get; set; }
         public Genero Genero { get; set; }
-        public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; } = string.Empty;
     }
 }

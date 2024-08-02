@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +11,7 @@ namespace E_Commerce_Comun.Entidades
     public abstract class EntidadBase
     {
         [Key]
-        public string Id { get; set; }
+        public long Id { get; set; }
         [DataType(DataType.DateTime)]
         [Required]
         public DateTime FechaCreacion { get; set; }
