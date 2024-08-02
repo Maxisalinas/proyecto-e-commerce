@@ -1,0 +1,14 @@
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\bin\Debug\net8.0\E-Commerce-Comun.deps.json
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\bin\Debug\net8.0\E-Commerce-Comun.runtimeconfig.json
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\bin\Debug\net8.0\E-Commerce-Comun.dll
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\bin\Debug\net8.0\E-Commerce-Comun.pdb
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.csproj.AssemblyReference.cache
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.GeneratedMSBuildEditorConfig.editorconfig
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.AssemblyInfoInputs.cache
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.AssemblyInfo.cs
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.csproj.CoreCompileInputs.cache
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.dll
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\refint\E-Commerce-Comun.dll
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.pdb
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\E-Commerce-Comun.genruntimeconfig.cache
+Q:\a\Archivos\Proyectos\E-Commerce-Solution\E-Commerce-Solution\E-Commerce-Comun\obj\Debug\net8.0\ref\E-Commerce-Comun.dll
