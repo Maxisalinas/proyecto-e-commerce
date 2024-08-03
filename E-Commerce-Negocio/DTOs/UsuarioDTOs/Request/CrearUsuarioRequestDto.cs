@@ -21,8 +21,8 @@ namespace E_Commerce_Negocio.DTOs.UsuarioDTOs.Request
         [EmailAddress(ErrorMessage = "Debe ingresar un correo electrónico válido.")]
         public string CorreoElectronico { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe ingresar una contraseña.")]
-        [StringLength(50, MinimumLength = 8, ErrorMessage = "La contraseña debe contener entre 8 y 50 caracteres.")]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$", ErrorMessage = "La contraseña debe contener al menos una letra mayúscula, un número y un carácter no alfanumérico.")]
+        [StringLength(20, MinimumLength = 8, ErrorMessage = "La contraseña debe contener entre 8 y 50 caracteres.")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,20}$", ErrorMessage = "La contraseña debe contener al menos una letra mayúscula, un número y un carácter no alfanumérico.")]
         public string Password { get; set; } = string.Empty;
         //[Required(ErrorMessage = "Debe seleccionar un rol.")]
         //[ForeignKey(nameof(Rol))]
