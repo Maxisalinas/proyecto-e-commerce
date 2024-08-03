@@ -20,8 +20,8 @@ namespace E_Commerce_Comun.Entidades
         [EmailAddress(ErrorMessage = "Debe ingresar un correo electrónico válido.")]
         public string CorreoElectronico { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe ingresar una contraseña.")]
-        [StringLength(50, MinimumLength = 8, ErrorMessage = "La contraseña debe contener entre 8 y 50 caracteres.")]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*[\W_])[A-Za-z\d\W_]{8,20}$", ErrorMessage = "La contraseña debe contener al menos una letra mayúscula y al menos un caracter no alfanumérico.")]
+        [StringLength(20, MinimumLength = 8, ErrorMessage = "La contraseña debe contener entre 8 y 20 caracteres.")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$", ErrorMessage = "La contraseña debe contener al menos un número, una minúscula y una mayúscula.")]
         public string Password { get; set; } = string.Empty;
         [Required(ErrorMessage = "Debe seleccionar un rol.")]
         [ForeignKey(nameof(Rol))]

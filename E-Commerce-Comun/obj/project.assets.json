@@ -4604,19 +4604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Equipo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
+      "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
       "projectName": "E-Commerce-Comun",
-      "projectPath": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "Q:\\a\\Archivos\\Proyectos\\Solution\\E-Commerce-Web-Solution\\E-Commerce-Comun\\obj\\",
+      "projectPath": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Comun\\E-Commerce-Comun.csproj",
+      "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Comun\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4711,7 +4711,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

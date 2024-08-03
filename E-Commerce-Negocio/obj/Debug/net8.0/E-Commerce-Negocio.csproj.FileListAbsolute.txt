@@ -15,3 +15,21 @@ Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\
 Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.pdb
 Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.genruntimeconfig.cache
 Q:\a\Archivos\Proyectos\Solution\E-Commerce-Web-Solution\E-Commerce-Negocio\obj\Debug\net8.0\ref\E-Commerce-Negocio.dll
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Negocio.deps.json
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Negocio.runtimeconfig.json
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Negocio.dll
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Negocio.pdb
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Comun.dll
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\bin\Debug\net8.0\E-Commerce-Comun.pdb
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.sourcelink.json
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commer.C24852B7.Up2Date
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.dll
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\refint\E-Commerce-Negocio.dll
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.pdb
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\E-Commerce-Negocio.genruntimeconfig.cache
+C:\Users\Equipo\Desktop\Desarrollo Web\Proyecto E-Commerce\Proyecto E-Commerce Repositorio\proyecto-e-commerce\E-Commerce-Negocio\obj\Debug\net8.0\ref\E-Commerce-Negocio.dll
