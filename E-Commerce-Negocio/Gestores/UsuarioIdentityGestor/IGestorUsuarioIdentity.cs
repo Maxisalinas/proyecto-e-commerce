@@ -12,6 +12,7 @@ namespace E_Commerce_Negocio.Gestores.UsuarioIdentityGestor
     {
         Task<string> GenerarTokenConfirmacionEmailAsync(UsuarioIdentity user);
         Task<UsuarioIdentity> EncontrarPorIdAsync(string id);
+        Task<bool> EncontrarPorEmailAsync(string email);
         Task<IdentityResult> ConfirmarEmailAsync(UsuarioIdentity user, string code);
     }
 }

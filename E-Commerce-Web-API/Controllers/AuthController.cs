@@ -106,6 +106,27 @@ namespace E_Commerce_Web_API.Controllers
             return response;
         }
 
+        [HttpGet("ValidarDisponibilidadEmail", Name = "ValidarDisponibilidadEmail")]
+        public async Task<bool> ValidarDisponibilidadEmail(string email)
+        {
+            try
+            {
+                if(await _userIdG.EncontrarPorEmailAsync(email))
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            catch (Exception exc)
+            {
+
+                throw exc;
+            }
+        }
+
         [HttpPost("LogIn", Name = "Login")]
         public async Task<LoginResponseDto> Login([FromBody] LoginRequestDto request)
         {

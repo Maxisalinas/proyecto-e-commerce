@@ -32,6 +32,15 @@ namespace E_Commerce_Negocio.Gestores.UsuarioIdentityGestor
             return result;
         }
 
+        public async Task<bool> EncontrarPorEmailAsync(string email)
+        {
+            var result = await _repo.EncontrarPorEmailAsync(email);
+
+            if (result != null) return true;
+
+            return false;
+        }
+
         public async Task<string> GenerarTokenConfirmacionEmailAsync(UsuarioIdentity user)
         {
             var result = await _repo.GenerarTokenConfirmacionEmailAsync(user);
