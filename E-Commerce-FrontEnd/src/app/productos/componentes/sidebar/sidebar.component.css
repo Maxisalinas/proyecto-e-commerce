@@ -1,0 +1,57 @@
+/* SIDEBAR */
+.sidebar-contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.sidebar-filtros {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(248, 249, 250);
+    border: 1px solid #dee2e6;
+}
+
+.sidebar-filtros-titulo {
+    margin: 1rem;
+}
+
+.filtros-talle-contenedor {
+   display: flex;  
+   flex-wrap: wrap;
+}
+
+.filtro-talle {
+    width: 4rem;
+    padding: 8px;
+}
+
+.filtro-talle input {
+    margin-right: 4px;
+}
+
+.filtros-genero-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.offcanvas {
+    background-color: rgb(248, 249, 250);
+}
+  
+.accordion-button:not(.show) {
+    background-color: white;  
+}
+  
+/* RESPONSIVE */
+
+@media screen and (min-width: 992px) {
+
+    .toggler-sidebar-colapsable {
+        display: none;
+    }
+
+}

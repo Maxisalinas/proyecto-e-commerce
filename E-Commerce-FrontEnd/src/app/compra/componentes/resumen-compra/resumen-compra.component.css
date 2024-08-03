@@ -1,0 +1,36 @@
+/* Resumen de compra */
+
+.resumen-compra-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: #e6e6e6;
+}
+
+.resumen-compra-card {
+    height: 700px;
+    width: 70%;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.resumen-compra-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1200px) {
+    .resumen-compra-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .resumen-compra-card {
+        width: 80%;
+    }
+}

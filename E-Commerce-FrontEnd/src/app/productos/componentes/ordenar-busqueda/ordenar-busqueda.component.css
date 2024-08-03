@@ -1,0 +1,40 @@
+/* ORDENAR BUSQUEDA */
+
+.tool-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 2.5rem 0 2.5rem;
+    
+}
+
+span {
+    width: 200px;
+}
+/* Ordenar Productos */
+.ordenar-productos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.ordenar-productos p {
+    margin: 0 0.5rem 0 0;
+}
+
+/* Paginador */
+.paginador {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+    .toggler-sidebar-colapsable {
+        display: none;
+    }
+
+}

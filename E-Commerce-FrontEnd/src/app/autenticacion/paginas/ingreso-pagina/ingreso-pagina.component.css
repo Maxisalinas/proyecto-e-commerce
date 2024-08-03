@@ -1,0 +1,41 @@
+/* Login */
+
+:host {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33,37,41);
+}
+
+.login-contenedor {
+    height: 680px;
+    width: 400px;
+    margin: 4rem 0;
+    padding: 4rem 4rem;
+    background-color: white;
+    text-align: center;
+}
+
+.controles-contenedor {
+    text-align: start;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.control-contenedor {
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 1rem;
+}

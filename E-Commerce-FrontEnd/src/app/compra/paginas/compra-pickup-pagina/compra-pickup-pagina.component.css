@@ -1,0 +1,46 @@
+/* PICKUPS */
+
+.seccion-pickups {
+    padding: 3rem;
+}
+
+.mapa-pickups-contenedor {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    padding: 48px;
+    margin-bottom: 2rem;
+}
+
+.accordion-body {
+    max-height: 651px;
+    overflow-y: scroll;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+.pickup-card {
+    width: 350px;
+    padding: 12px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e6e6e6;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pickup-card button {
+    align-self: flex-end;
+}
+
+.mapa {
+    width: 70%;
+    height: 100%;
+    background-color: blueviolet;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}

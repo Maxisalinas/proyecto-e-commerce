@@ -1,0 +1,49 @@
+/* HISTORIAL DE COMPRAS */
+
+.seccion-historial-compras {
+    padding: 2rem;
+}
+
+.seccion-historial-compras-titulo {
+    padding: 1rem 0  0.5rem 5%;
+
+}
+
+.historial-compras-contenedor {
+    width: 90%;
+    background-color: #e6e6e6;
+    padding: 3rem;
+    margin: 2rem auto;
+}
+
+.compra-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 2rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.compra-detalle-item {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: white;
+    padding: 3rem 1rem; 
+}
+
+.compra-detalle-item h5 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.compra-imagen {
+    width: 250px;
+    height: 250px;
+    margin: 3rem;
+    background-color: lightcoral;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}

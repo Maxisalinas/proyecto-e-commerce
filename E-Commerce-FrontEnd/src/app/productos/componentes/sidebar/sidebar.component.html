@@ -1,0 +1,385 @@
+<!-- SIDEBAR  -->
+
+<aside class="sidebar-contenedor">
+
+        <!-- Sidebar Colapsable -->
+        <div class="offcanvas offcanvas-start" *ngIf="!esResolucionGrande; else paraResolucionesChicas" tabindex="-1" id="offcanvasExample">
+
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasExampleLabel">
+                    Filtrar por:
+                </h4>
+                <button class="btn-close" type="button" data-bs-dismiss="offcanvas">
+                </button>
+            </div>
+
+
+            <div class="offcanvas-body" style="padding: 4px !important;">
+                <form action="">
+                    <!-- Marca -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-colapsable-marcas">
+                                    <strong> Marca </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-colapsable-marcas" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="nike">
+                                            <label class="form-check-label" for="nike">Nike</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="adidas">
+                                            <label class="form-check-label" for="adidas">Adidas</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="vans">
+                                            <label class="form-check-label" for="vans">Vans</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="continental">
+                                            <label class="form-check-label" for="continental">Continental</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="crocs">
+                                            <label class="form-check-label" for="crocs">Crocs</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="new-balance">
+                                            <label class="form-check-label" for="new-balance">New Balance</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categoría -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-colapsable-categorias">
+                                    <strong> Categoría </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-colapsable-categorias" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="running">
+                                            <label class="form-check-label" for="running">Running</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="streetware">
+                                            <label class="form-check-label" for="streetware">Streetware</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="trekking">
+                                            <label class="form-check-label" for="trekking">Trekking</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="basketball">
+                                            <label class="form-check-label" for="basketball">Basketball</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="football">
+                                            <label class="form-check-label" for="football">Football</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="sandalias">
+                                            <label class="form-check-label" for="sandalias">Sandalias</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Talle -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-colapsable-talles">
+                                    <strong> Talle </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-colapsable-talles" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <div class="filtros-talle-contenedor">
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="35">
+                                                <label class="form-check-label" for="35">35</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="36">
+                                                <label class="form-check-label" for="36">36</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="37">
+                                                <label class="form-check-label" for="37">37</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="38">
+                                                <label class="form-check-label" for="38">38</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="#39">
+                                                <label class="form-check-label" for="39">39</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="40">
+                                                <label class="form-check-label" for="40">40</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="41">
+                                                <label class="form-check-label" for="41">41</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="42">
+                                                <label class="form-check-label" for="42">42</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="43">
+                                                <label class="form-check-label" for="43">43</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="44">
+                                                <label class="form-check-label" for="44">44</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="45">
+                                                <label class="form-check-label" for="45">45</label>
+                                            </li>
+                                            <li class="list-group-item talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="46">
+                                                <label class="form-check-label" for="46">46</label>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Género -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-colapsable-generos">
+                                    <strong> Género </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-colapsable-generos" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <div class="filtros-genero-contenedor">
+                                            <li class="list-group-item">
+                                                <input class="form-check-input" type="radio" name="genero" id="hombre">
+                                                <label class="form-check-label" for="hombre">Hombre</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input class="form-check-input" type="radio" name="genero" id="mujer">
+                                                <label class="form-check-label" for="mujer">Mujer</label>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Sidebar Fijo -->
+        <ng-template #paraResolucionesChicas>  
+            <div class="sidebar-filtros" *ngIf="esResolucionGrande">
+
+                <h5 class="sidebar-filtros-titulo"> Filtrar por: </h5>
+
+                <form action="">
+                    <!-- Marca -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-marcas">
+                                    <strong> Marca </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-marcas" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="nike">
+                                            <label class="form-check-label" for="nike">Nike</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="adidas">
+                                            <label class="form-check-label" for="adidas">Adidas</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="vans">
+                                            <label class="form-check-label" for="vans">Vans</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="continental">
+                                            <label class="form-check-label" for="continental">Continental</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="crocs">
+                                            <label class="form-check-label" for="crocs">Crocs</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="new-balance">
+                                            <label class="form-check-label" for="new-balance">New Balance</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Categoría -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-categorias">
+                                    <strong> Categoría </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-categorias" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="running">
+                                            <label class="form-check-label" for="running">Running</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="streetware">
+                                            <label class="form-check-label" for="streetware">Streetware</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="trekking">
+                                            <label class="form-check-label" for="trekking">Trekking</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="basketball">
+                                            <label class="form-check-label" for="basketball">Basketball</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="football">
+                                            <label class="form-check-label" for="football">Football</label>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <input class="form-check-input" type="checkbox" name="" id="sandalias">
+                                            <label class="form-check-label" for="sandalias">Sandalias</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Talle -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-talles">
+                                    <strong> Talle </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-talles" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <div class="filtros-talle-contenedor">
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="35">
+                                                <label class="form-check-label" for="35">35</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="36">
+                                                <label class="form-check-label" for="36">36</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="37">
+                                                <label class="form-check-label" for="37">37</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="38">
+                                                <label class="form-check-label" for="38">38</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="39">
+                                                <label class="form-check-label" for="39">39</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="40">
+                                                <label class="form-check-label" for="40">40</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="41">
+                                                <label class="form-check-label" for="41">41</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="42">
+                                                <label class="form-check-label" for="42">42</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="43">
+                                                <label class="form-check-label" for="43">43</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="44">
+                                                <label class="form-check-label" for="44">44</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="45">
+                                                <label class="form-check-label" for="45">45</label>
+                                            </li>
+                                            <li class="list-group-item filtro-talle">
+                                                <input class="form-check-input" type="checkbox" name="" id="46">
+                                                <label class="form-check-label" for="46">46</label>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Género -->
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#sidebar-generos">
+                                    <strong> Género </strong>
+                                </button>
+                            </h2>
+                            <div id="sidebar-generos" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="list-group">
+                                        <div class="filtros-genero-contenedor">
+                                            <li class="list-group-item">
+                                                <input class="form-check-input" type="radio" name="genero" id="hombre">
+                                                <label class="form-check-label" for="hombre">Hombre</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input class="form-check-input" type="radio" name="genero" id="mujer">
+                                                <label class="form-check-label" for="mujer">Mujer</label>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </ng-template>
+</aside>

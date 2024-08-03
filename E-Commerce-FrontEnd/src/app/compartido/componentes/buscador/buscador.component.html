@@ -1,0 +1,14 @@
+<!-- Buscador -->
+ 
+<div class="buscador">
+        <input  class="form-control" 
+                type="text" 
+                placeholder="Buscar"
+                [formControl]="buscador"
+                (keyup.enter)="onBuscar()"
+                >
+
+        <button class="btn btn-primary"  (click)="onBuscar()">
+                <i class="bi bi-search"></i>    
+        </button>
+</div>

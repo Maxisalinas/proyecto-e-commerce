@@ -1,0 +1,10 @@
+
+<div class="card">
+    <img [src]="producto.imageUrl" class="card-img-top" alt="Imagen del producto">
+    <div class="card-body">
+        <img [src]="producto.marca.logoImageUrl" alt="" style="width: 38px; height: 38px; object-fit: contain;">
+        <p class="card-titulo card-text">{{ producto.nombre }}</p>
+        <p class="card-precio card-text">{{ producto.precio | currency }} </p>
+        <p class="card-financiacion card-text">3 cuotas de <strong>{{ producto.precio/3 | number: '1.2-2' | currency }}</strong> sin interés</p>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+:host {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33,37,41);
+}
+
+.registro-contenedor {
+    height: fit-content;
+    width: 450px;
+    margin: 4rem 0;
+    padding: 4rem;
+    background-color: white;
+    text-align: center;
+}
+
+.controles-contenedor {
+    text-align: start;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.control-contenedor {
+    margin-bottom: 1rem;
+}
+
+.control-fecha {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+input {
+    margin-bottom: 2px;
+}
+
+.ng-touched.ng-invalid:is(input,textarea),
+.ng-dirty.ng-invalid:is(input,textarea) {
+    border: 2px solid  #dc3545;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+}
+

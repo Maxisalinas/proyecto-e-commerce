@@ -1,0 +1,32 @@
+<!-- SECCION LISTADO DE PRODUCTOS -->
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-4">
+            <!-- Sidebar -->
+            <app-sidebar></app-sidebar>
+        </div>
+
+        <div class="col-lg-9 col-md-8">
+            <!-- Toolbar -->
+            <app-ordenar-busqueda></app-ordenar-busqueda>
+
+            <!-- Lista -->
+            <div class="lista-contenedor row">
+
+                 <div
+                    class="col-lg-4 col-md-6 col-sm-12" 
+                    *ngFor="let producto of productos"
+                    >
+                    <a [routerLink]="['/productos/', producto.id]">
+                        <app-card [producto]="producto"></app-card>
+                    </a>
+                 </div>
+
+                <!-- Paginador -->
+                <app-paginador></app-paginador>
+            </div>
+        </div>
+    </div>
+</section>
+
+

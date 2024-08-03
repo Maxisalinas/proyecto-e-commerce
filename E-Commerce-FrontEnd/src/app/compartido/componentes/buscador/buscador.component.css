@@ -1,0 +1,27 @@
+/* Buscador */
+.buscador {
+    display: flex;
+    width: auto;
+    width: 40vw;
+}
+
+.buscador input {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.buscador button {
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+
+    .buscador {
+        width: 60vw !important;
+        padding: 13px 0 !important;
+    }
+}

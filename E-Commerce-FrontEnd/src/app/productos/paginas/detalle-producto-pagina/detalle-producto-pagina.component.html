@@ -1,0 +1,164 @@
+<div class="container">
+    <div class="row" *ngIf="producto">
+        <!-- Carrusel Lateral -->
+        <div class="carrusel-lateral-contenedor col-xl-3" >
+
+            <div class="carrusel-lateral carousel-indicators">
+                
+                <div class="carrusel-lateral-item">
+                    <img [src]="producto.imageUrl" alt="">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"></button>
+                </div>
+                
+                <div class="carrusel-lateral-item">
+                    <img src="/assets/img-card-generica-azul.svg" alt="">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+
+                </div>      
+
+                <div class="carrusel-lateral-item">  
+                    <img src="/assets/img-card-generica-verde.svg" alt="">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+
+                </div>
+
+                <div class="carrusel-lateral-item"> 
+                    <img src="/assets/img-card-generica-amarilla.svg" alt=""> 
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Carrusel Principal -->
+        <div class="carrusel-contenedor col-xl-5 col-lg-6  col-sm-12">
+        
+            <div class="carousel slide" id="carouselExampleIndicators" >
+
+                <div class="carousel-indicators">    
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img [src]="producto.imageUrl"  class="carrusel-item-imagen" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img-card-generica-azul.svg" class="carrusel-item-imagen" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img-card-generica-verde.svg" class="carrusel-item-imagen" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img-card-generica-amarilla.svg" class="carrusel-item-imagen" alt="...">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Detalles del Producto -->
+        <div class="detalles-contenedor col-xl-4 col-lg-6 col-sm-12" >
+                <div class="detalles">  
+                    <!-- Nombre del Producto -->
+                    <h2>{{ producto.nombre }}</h2>
+
+                    <!-- Codigo de Articulo -->
+                    <p>Cod Art: {{ producto.id }}</p>
+
+                    <!-- Precio -->
+                    <div class="precio">
+                        <!-- <span class="precio-tachado">{{ producto.precio + producto.precio*15/100 | currency }}</span> -->
+                        
+                        <h4>{{ producto.precio | currency }} 
+                            <!-- <span class="precio-descuento">15% OFF</span> -->
+                        </h4>
+                    </div>
+
+                    <!-- Financiación -->
+                    <p>3 y 6 cuotas sin interés con 
+                        <img class="icono-tarjeta" src="/assets/icono-visa.svg" alt="tarjeta-visa">
+                        <img class="icono-tarjeta"  src="/assets/icono-mastercard.svg" alt="tarjeta-mastercard">
+                    </p>
+
+                    <!-- Acerca del producto -->
+                    <div class="acerca-del-producto">  
+                        <h5>Acerca del Producto</h5>
+                        <p>{{ producto.descripcion }}</p>
+                    </div>
+                    
+                    <!-- Talles -->
+                    <ul class="list-group">
+                        <h5>Talles</h5>
+                        <div class="talles-contenedor">
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="35">
+                                <label class="form-check-label" for="35">35</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="36"> 
+                                <label class="form-check-label" for="36">36</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="37"> 
+                                <label class="form-check-label" for="37">37</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="38"> 
+                                <label class="form-check-label" for="38">38</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="39">
+                                <label class="form-check-label" for="39">39</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="40">
+                                <label class="form-check-label" for="40">40</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="41">
+                                <label class="form-check-label" for="41">41</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="42"> 
+                                <label class="form-check-label" for="42">42</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="43"> 
+                                <label class="form-check-label" for="43">43</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="44">
+                                <label class="form-check-label" for="44">44</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="45">
+                                <label class="form-check-label" for="45">45</label>
+                            </li>
+                            <li class="list-group-item talle">
+                                <input class="form-check-input" type="radio" name="talle" id="46">
+                                <label class="form-check-label" for="46">46</label>
+                            </li>
+                        </div>
+                    </ul>
+                    <button class="cta-comprar btn btn-primary">Comprar</button>
+                </div>
+        
+        </div>
+
+    </div>
+</div>

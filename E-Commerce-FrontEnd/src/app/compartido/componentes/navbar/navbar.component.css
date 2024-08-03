@@ -1,0 +1,68 @@
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(33,37,41);
+    justify-content: space-around;
+}
+
+/* Logo */
+
+.navbar-logo img {
+    max-width: 65px;
+}
+
+/* Toolbar */
+
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 1rem;
+}
+
+#navbarToggler a {
+    width: max-content;
+    margin: 0 0.5rem;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+
+
+#navbarToggler a:hover {
+    color: #0d6efd;
+}
+/* Menú Hamburgesa */
+.navbar-toggler {
+    border: 2px solid white; 
+    /* #0d6efd */
+}
+
+.navbar-toggler:focus {
+    background-color: white;
+    box-shadow: 0px 0px 6px 2px #0a58ca; 
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+    .navbar-logo {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis:0% !important;
+        flex-grow: 0 !important;  
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    #navbarToggler a {
+        padding: 0.5rem;
+    }
+}
