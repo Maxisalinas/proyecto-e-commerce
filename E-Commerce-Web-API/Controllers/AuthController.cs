@@ -107,17 +107,19 @@ namespace E_Commerce_Web_API.Controllers
         }
 
         [HttpGet("ValidarDisponibilidadEmail", Name = "ValidarDisponibilidadEmail")]
-        public async Task<bool> ValidarDisponibilidadEmail(string email)
+        public async Task<ValidarDisponibilidadEmailResponseDto> ValidarDisponibilidadEmail(string email)
         {
+            var response = new ValidarDisponibilidadEmailResponseDto();
+            
             try
             {
                 if(await _userIdG.EncontrarPorEmailAsync(email))
                 {
-                    return false;
+                    response.Disponible = false;
                 }
                 else
                 {
-                    return true;
+                    response.Disponible = true;
                 }
             }
             catch (Exception exc)
@@ -125,6 +127,8 @@ namespace E_Commerce_Web_API.Controllers
 
                 throw exc;
             }
+
+            return response;
         }
 
         [HttpPost("LogIn", Name = "Login")]

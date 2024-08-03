@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A91713E6-314C-4D82-A9ED-027368E97660}|E-Commerce-Web-API\\E-Commerce-Web-API.csproj|c:\\users\\equipo\\desktop\\desarrollo web\\proyecto e-commerce\\proyecto e-commerce repositorio\\proyecto-e-commerce\\e-commerce-web-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91713E6-314C-4D82-A9ED-027368E97660}|E-Commerce-Web-API\\E-Commerce-Web-API.csproj|solutionrelative:e-commerce-web-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Web-API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "E-Commerce-Web-API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Web-API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "E-Commerce-Web-API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T03:58:22.32Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
