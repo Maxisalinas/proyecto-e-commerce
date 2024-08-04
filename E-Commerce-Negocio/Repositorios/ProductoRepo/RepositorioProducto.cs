@@ -37,7 +37,7 @@ namespace E_Commerce_Negocio.Repositorios.ProductoRepo
             //    .ToListAsync();
 
             var resultados = await Buscar(criterioBusqueda, pageSize, pageNumber);
-            var response = resultados.Take(pageSize).ToList();
+            var response = resultados.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
 
             return response;
         }

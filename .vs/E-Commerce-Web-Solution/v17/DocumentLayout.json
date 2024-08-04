@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26C9DBEB-F2F0-4F8C-9E47-D4EC7DFF8868}|E-Commerce-Negocio\\E-Commerce-Negocio.csproj|c:\\users\\equipo\\desktop\\desarrollo web\\proyecto e-commerce\\proyecto e-commerce repositorio\\proyecto-e-commerce\\e-commerce-negocio\\repositorios\\productorepo\\repositorioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C9DBEB-F2F0-4F8C-9E47-D4EC7DFF8868}|E-Commerce-Negocio\\E-Commerce-Negocio.csproj|solutionrelative:e-commerce-negocio\\repositorios\\productorepo\\repositorioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A91713E6-314C-4D82-A9ED-027368E97660}|E-Commerce-Web-API\\E-Commerce-Web-API.csproj|c:\\users\\equipo\\desktop\\desarrollo web\\proyecto e-commerce\\proyecto e-commerce repositorio\\proyecto-e-commerce\\e-commerce-web-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A91713E6-314C-4D82-A9ED-027368E97660}|E-Commerce-Web-API\\E-Commerce-Web-API.csproj|solutionrelative:e-commerce-web-api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RepositorioProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Negocio\\Repositorios\\ProductoRepo\\RepositorioProducto.cs",
+              "RelativeDocumentMoniker": "E-Commerce-Negocio\\Repositorios\\ProductoRepo\\RepositorioProducto.cs",
+              "ToolTip": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Negocio\\Repositorios\\ProductoRepo\\RepositorioProducto.cs",
+              "RelativeToolTip": "E-Commerce-Negocio\\Repositorios\\ProductoRepo\\RepositorioProducto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvykAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T02:29:30.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Web-API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "E-Commerce-Web-API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Equipo\\Desktop\\Desarrollo Web\\Proyecto E-Commerce\\Proyecto E-Commerce Repositorio\\proyecto-e-commerce\\E-Commerce-Web-API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "E-Commerce-Web-API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHAAAAAMAAAA",
+              "ViewState": "AQIAANUAAAAAAAAAAAAgwOoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T03:58:22.32Z",
               "EditorCaption": ""
