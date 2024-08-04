@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-import { ServicioValidaciones } from '../../../compartido/servicios/validadores.service';
+import { ServicioValidaciones } from '../../../compartido/servicios/validaciones.service';
 import { ServicioAutenticacion } from '../../servicios/autenticacion.service';
 import { ValidadorEmail } from '../../../compartido/servicios/validador-email.service';
 

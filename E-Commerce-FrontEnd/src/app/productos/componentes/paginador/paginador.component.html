@@ -1,21 +1,37 @@
 <!-- Paginador -->
  
 <nav class="paginador">
+
     <ul class="pagination">
-        <li class="page-item disabled">
-            <a class="page-link">Atrás</a>
-        </li>
+
         <li class="page-item">
-            <a class="page-link" href="#">1</a>
+            <a  class="page-link"
+                [ngClass]="{'disabled': paginaActual == 1 }"  
+                (click)="onClickPaginadorItem(paginaActual - 1)" >
+                Atrás
+            </a>
         </li>
+
+        <li *ngFor="let pagina of arrayDePaginas; let i = index">
+  
+            <a class="page-link" 
+                *ngIf="i < 1 || i >= arrayDePaginas.length - 1 || (i >= paginaActual - 1 && i <= paginaActual + 1)"
+                [ngClass]="{'active': i === paginaActual}" 
+                (click)="onClickPaginadorItem(i)"
+                >
+                {{ i + 1 }}
+            </a>
+          
+        </li>
+
         <li class="page-item">
-            <a class="page-link" href="#">2</a>
+            <a  class="page-link"
+                [ngClass]="{'disabled': paginaActual == arrayDePaginas.length - 1 }"  
+                (click)="onClickPaginadorItem(paginaActual + 1)">
+                Siguiente
+            </a>
         </li>
-        <li class="page-item">
-            <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-            <a class="page-link" href="#">Siguiente</a>
-        </li>
+
     </ul>
+    
 </nav>

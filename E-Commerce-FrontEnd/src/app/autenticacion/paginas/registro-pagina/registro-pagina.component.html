@@ -42,7 +42,9 @@
                                 type="email" 
                                 id="email" 
                                 formControlName="correoElectronico">
-                        <span *ngIf="(formularioRegistro.controls['correoElectronico'].statusChanges | async )  === 'PENDING'"><img class="spinner" src="/assets/spinner.svg"> Comprobando disponibilidad...</span>
+                        <span *ngIf="(formularioRegistro.controls['correoElectronico'].statusChanges | async )  === 'PENDING'">
+                                <img class="spinner" src="/assets/spinner.svg">Comprobando disponibilidad...
+                        </span>
                         <span class="text-danger" *ngIf="elCampoEsValido('correoElectronico')">{{ obtenerErrorDeCampo('correoElectronico') }}</span>
                     </div>
                     

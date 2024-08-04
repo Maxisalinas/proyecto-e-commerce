@@ -6,14 +6,12 @@
 }
 
 .buscador input {
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
+    margin-right: 4px;
+
 }
 .buscador button {
     width: 40px;
     height: 40px;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 0%;
 }
 
 /* RESPONSIVE */
@@ -21,7 +19,14 @@
 @media screen and (max-width: 767px) {
 
     .buscador {
-        width: 60vw !important;
-        padding: 13px 0 !important;
+        width: 50vw !important;
+        padding: 1rem 0 !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .buscador {
+        width: 35vw !important;
     }
 }

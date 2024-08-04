@@ -16,12 +16,12 @@ export class ServicioProductos {
     constructor( private httpClient: HttpClient ) { }
     
 
-    obtenerProductos( valor:string ): Observable<ProductosResponse> {
+    obtenerProductos( valor:string, numeroPagina?: number ): Observable<ProductosResponse> {
 
         const body = {
             "criterioBusqueda": valor,
             "pageSize": 12,
-            "pageNumber": 1
+            "pageNumber": numeroPagina,
         }
 
         return this.httpClient.post<ProductosResponse>( `${ this.urlBase }/Producto/Buscador`, body )
@@ -33,6 +33,22 @@ export class ServicioProductos {
 
         return this.httpClient.post<ProductoResponse>( `${ this.urlBase }/Producto/ObtenerUnoPorId/${id}`, body);
     }
+
+
+    crearArrayDePaginas(totalPaginas: number): number[] {
+        if (totalPaginas <= 0) {
+          return [];
+        }
+        
+        const arrayDePaginas: number[] = [];
+  
+        for (let i = 1; i <= totalPaginas; i++) {
+          arrayDePaginas.push(i);
+        }
+        
+        return arrayDePaginas;
+      }
+      
 
 
 

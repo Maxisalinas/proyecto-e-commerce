@@ -11,7 +11,7 @@
             <app-ordenar-busqueda></app-ordenar-busqueda>
 
             <!-- Lista -->
-            <div class="lista-contenedor row">
+            <div class="lista-contenedor row" *ngIf="productos != []">
 
                  <div
                     class="col-lg-4 col-md-6 col-sm-12" 
@@ -23,7 +23,11 @@
                  </div>
 
                 <!-- Paginador -->
-                <app-paginador></app-paginador>
+                <app-paginador  
+                            [criterioBusqueda]="criterioBusqueda"
+                            (emisorIndicePaginaActual)="obtenerProductosDesdePaginador($event)"
+                            [arrayDePaginas]="totalPaginas">
+                </app-paginador>
             </div>
         </div>
     </div>
