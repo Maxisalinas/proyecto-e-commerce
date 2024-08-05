@@ -13,9 +13,9 @@ export class PaginadorComponent {
     public criterioBusqueda: string = '';
     @Input()
     public arrayDePaginas: number[] = [];
+    public paginaActual: number = 0;
     @Output()
     public emisorIndicePaginaActual: EventEmitter<number> = new EventEmitter();
-    public paginaActual: number = 0;
 
     constructor( ) {}
 

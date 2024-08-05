@@ -61,6 +61,29 @@ export class ListaPaginaComponent implements OnInit, OnDestroy {
     }
     
 
+    ordenarListadoProductos( criterioOrdenamiento: string ) {
+
+        if( criterioOrdenamiento == 'menorPrecio') {
+
+        }
+
+        if( criterioOrdenamiento == 'mayorPrecio') {
+          
+        }
+
+        if( criterioOrdenamiento == 'deZaA') {
+          
+        }
+
+        if( criterioOrdenamiento == 'menorPrecio') {
+          
+        }
+    }   
+
+
+
+
+
 
 
 

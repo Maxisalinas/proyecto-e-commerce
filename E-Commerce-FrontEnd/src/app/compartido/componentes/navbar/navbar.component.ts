@@ -1,7 +1,8 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 
 import { ServicioAutenticacion } from '../../../autenticacion/servicios/autenticacion.service';
 import { Subscription } from 'rxjs';
+import { ActivatedRoute, NavigationEnd, UrlSegment } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -13,7 +14,10 @@ export class NavbarComponent implements OnInit, OnDestroy {
   public logeado!: boolean;
   public suscripcion!: Subscription;
 
+
+
   constructor ( private servicioAutenticacion: ServicioAutenticacion,
+                private actiavtedRoute: ActivatedRoute,
    ) {}
 
 
@@ -21,6 +25,8 @@ export class NavbarComponent implements OnInit, OnDestroy {
       this.suscripcion = this.servicioAutenticacion.logeado$.subscribe( valor => this.logeado = valor );
   }
 
+
+  
   cerrarSesion() {
       this.servicioAutenticacion.cerrarSesion()
 

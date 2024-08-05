@@ -7,6 +7,7 @@ import { CompraLayoutPaginaComponent } from './paginas/compra-layout-pagina/comp
 import { CompraPickupPaginaComponent } from './paginas/compra-pickup-pagina/compra-pickup-pagina.component';
 import { CompraPagoPaginaComponent } from './paginas/compra-pago-pagina/compra-pago-pagina.component';
 import { ResumenCompraComponent } from './componentes/resumen-compra/resumen-compra.component';
+import { CompartidoModule } from '../compartido/compartido.module';
 
 
 @NgModule({
@@ -14,11 +15,13 @@ import { ResumenCompraComponent } from './componentes/resumen-compra/resumen-com
     CompraLayoutPaginaComponent,
     CompraPickupPaginaComponent,
     CompraPagoPaginaComponent,
-    ResumenCompraComponent
+    ResumenCompraComponent,
+
   ],
   imports: [
     CommonModule,
-    CompraRoutingModule
+    CompraRoutingModule,
+    CompartidoModule,
   ]
 })
 export class CompraModule { }

@@ -4,16 +4,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100%;
+    width: 100%;
+    padding: 0 48px;
     background-color: #e6e6e6;
 }
 
 .resumen-compra-card {
-    height: 700px;
-    width: 70%;
+    height: 605px;
+    width: 100%;
     background-color: white;
     padding: 2rem;
+    margin-top: 48px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: small;
 }
 
 .resumen-compra-item {
@@ -23,7 +27,7 @@
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .resumen-compra-card {
         width: 90%;
     }
@@ -33,4 +37,4 @@
     .resumen-compra-card {
         width: 80%;
     }
-}
+} */

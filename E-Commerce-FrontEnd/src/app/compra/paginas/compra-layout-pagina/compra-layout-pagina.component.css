@@ -1,0 +1,10 @@
+.navbar {
+    background-color: rgb(33,37,41);
+}
+
+.navbar-logo img {
+    width: 65px;
+    position: relative;
+    left: 10vw;
+    
+ }

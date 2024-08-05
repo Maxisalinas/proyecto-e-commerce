@@ -48,8 +48,6 @@ export class ServicioProductos {
         
         return arrayDePaginas;
       }
-      
-
 
 
 }       
