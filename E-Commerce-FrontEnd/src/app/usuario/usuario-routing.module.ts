@@ -18,10 +18,7 @@ const routes: Routes = [
               path: 'historial-compras',
               component: HistorialComprasPaginasComponent,
           },
-          {
-              path: '**',
-              redirectTo: 'configuracion',
-          }
+
       ]
 
     }

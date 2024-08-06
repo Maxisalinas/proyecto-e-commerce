@@ -20,14 +20,14 @@ export class CompraPickupPaginaComponent implements OnInit {
     public pickups: PickUp[] = [
         { 
             id: 1,
-            nombre: 'Tienda Adidas Patio Olmos',
+            nombre: 'Adidas Patio Olmos',
             direccion: 'Av. Vélez Sarsfield 361',
             horario: '10am - 10pm',
             position: { lat: -31.4198, lng: -64.1882},
         },
         { 
             id: 2,
-            nombre: 'Tienda Nike Nuevo Centro Shopping',
+            nombre: 'Nike Nuevo Centro Shopping',
             direccion: 'Av. Duarte Quirós 1400',
             horario: '10am - 10pm',
             position: { lat: -31.4128, lng: -64.2045 },
@@ -72,7 +72,7 @@ export class CompraPickupPaginaComponent implements OnInit {
         this.pickups.forEach(( pickup ) => {
 
             const pin = new PinElement({
-                scale: 1.5,
+                scale: 1.2,
                 background: "#red",
                 glyphColor: "white",
                 // glyph:
@@ -92,6 +92,10 @@ export class CompraPickupPaginaComponent implements OnInit {
 
             });
 
+            marcador.classList.add("marcador");
+            marcador.classList.add("marcador:hover");
+            marcador.style.marcador= "2px solid blue"
+
         })
         
     }
@@ -101,12 +105,15 @@ export class CompraPickupPaginaComponent implements OnInit {
         const pickup = this.pickups.find( pickup => pickup.nombre === pickupSeleccionadoMarcador );
 
         this.pickUpSeleccionadoActualmente = pickup;
+        
 
     }
 
     seleccionarPickUpCard( pickup: PickUp ) {
 
         this.pickUpSeleccionadoActualmente = pickup;
+
+    
 
     }
 

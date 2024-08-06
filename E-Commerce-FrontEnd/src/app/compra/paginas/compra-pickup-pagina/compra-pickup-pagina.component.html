@@ -12,7 +12,7 @@
                 </button>
             </h2>
 
-            <div class="accordion-collapse collapse" id="accordion-pickups">
+            <div class="accordion-collapse collapse show" id="accordion-pickups">
 
                 <div class="accordion-body ">
 
@@ -23,7 +23,7 @@
                         <span  class="pickup-card-titulo">{{ pickup.nombre }}</span>
                         <span class="pickup-card-descripcion">{{ pickup.direccion}}</span>
                         <span class="pickup-card-descripcion">Horario: {{ pickup.horario }}</span>
-                        <button class="btn btn-primary">Seleccionar</button>
+                        <button class="btn btn-primary"  [ngClass]="{ 'pickup-card-boton-inactivo': pickup !== pickUpSeleccionadoActualmente }">Seleccionar</button>
                     </div>
 
                 </div>
