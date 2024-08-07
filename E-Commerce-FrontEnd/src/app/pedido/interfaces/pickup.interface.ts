@@ -4,7 +4,7 @@ export interface PickUp {
         nombre: string,
         direccion: string,
         horario: string,
-        logo?: string;
+        img?: string;
         position: Position,
       
 }

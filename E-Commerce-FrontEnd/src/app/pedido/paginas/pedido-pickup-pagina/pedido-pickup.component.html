@@ -1,0 +1,41 @@
+<h2 class="titulo-seccion">Seleccione un punto de retiro</h2>
+
+<div class="mapa-pickups-contenedor">
+
+    <!-- Colapsable pickups -->
+    <div class="accordion">
+        <div class="accordion-item" >
+
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#accordion-pickups">
+                </button>
+            </h2>
+
+
+            <div class="accordion-collapse collapse show" id="accordion-pickups" >
+
+                <div class="accordion-body">
+
+                    <div class="pickup-card" 
+                       *ngFor="let pickup of pickups" 
+                        [ngClass]="{'pickup-seleccionado': pickup.id == pickUpSeleccionadoActualmente?.id }"
+                        (click)="seleccionarPickUpCard(pickup)"
+                        >
+                            <span  class="pickup-card-titulo">{{ pickup.nombre }}</span>
+                            <span class="pickup-card-descripcion">{{ pickup.direccion}}</span>
+                            <span class="pickup-card-descripcion">Horario: {{ pickup.horario }}</span>
+                            <button class="btn btn-primary"  [ngClass]="{ 'pickup-card-boton-inactivo': pickup !== pickUpSeleccionadoActualmente }">Seleccionar</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Mapa -->
+      <div id="map"></div>
+
+</div>
+
