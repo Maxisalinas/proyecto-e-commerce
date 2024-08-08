@@ -24,7 +24,6 @@ export class ServicioCarrito {
             this.carritoSubject.next(this.carrito);
             this.actualizarLocalStorage();
 
-
         }
     
         eliminarProducto(indice: number) {

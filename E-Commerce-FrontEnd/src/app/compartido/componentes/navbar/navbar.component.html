@@ -16,21 +16,22 @@
 
             <!-- Toolbar -->
             <div class="collapse navbar-collapse" id="navbarToggler">
-                        <a *ngIf="logeado">Mis compras</a>
-                        <a >Ayuda</a>
 
-                        <a (click)="cerrarSesion()" 
-                           *ngIf="logeado; else nologeado">
-                           Salir
-                           <i class="bi bi-box-arrow-right"></i>
+                    <a *ngIf="logeado">Mis compras</a>
+
+                    <a (click)="cerrarSesion()" 
+                        *ngIf="logeado; else nologeado">
+                        Salir
+                        <i class="bi bi-box-arrow-right"></i>
+                    </a>
+
+                    <ng-template #nologeado>
+                        <a routerLink="/autenticacion/login">
+                            Ingresar
+                            <i class="bi bi-box-arrow-in-left"></i>
                         </a>
+                    </ng-template>
 
-                        <ng-template #nologeado>
-                            <a routerLink="/autenticacion/login">
-                                Ingresar
-                                <i class="bi bi-box-arrow-in-left"></i>
-                             </a>
-                        </ng-template>
             </div>
         </div>
     </nav>

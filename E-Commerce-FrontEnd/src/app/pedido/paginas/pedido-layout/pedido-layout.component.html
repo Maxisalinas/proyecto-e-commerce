@@ -1,14 +1,21 @@
 <nav class="navbar">
-    <a href="#" class="navbar-logo"><img src="/assets/logo.svg" alt="logo"></a>
+    <a class="navbar-logo" routerLink="/home"><img src="/assets/logo.svg" alt="logo"></a>
 </nav>
+
 <section class="container">
+
     <div class="row">
-        <div class="col-lg-8 col-sm-12">
+
+        <div class="col-lg-8 col-md-12">
             <router-outlet/>
          </div>
-         <div class="col-lg-4 col-sm-12">
+
+         <div class="col-lg-4 col-md-12">
             <app-resumen-compra></app-resumen-compra>
         </div>
+
     </div>
+    
 </section>
+
 <app-footer></app-footer>

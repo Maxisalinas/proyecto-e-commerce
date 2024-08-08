@@ -6,6 +6,7 @@ import { AutenticacionRoutingModule } from './autenticacion-routing.module';
 import { AutenticacionLayoutPaginaComponent } from './paginas/autenticacion-layout-pagina/autenticacion-layout-pagina.component';
 import { IngresoPaginaComponent } from './paginas/ingreso-pagina/ingreso-pagina.component';
 import { RegistroPaginaComponent } from './paginas/registro-pagina/registro-pagina.component';
+import { RecuperarPasswordComponent } from './paginas/recuperar-password-pagina/recuperar-password.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { RegistroPaginaComponent } from './paginas/registro-pagina/registro-pagi
     AutenticacionLayoutPaginaComponent,
     IngresoPaginaComponent,
     RegistroPaginaComponent,
+    RecuperarPasswordComponent,
 
   ],
   imports: [

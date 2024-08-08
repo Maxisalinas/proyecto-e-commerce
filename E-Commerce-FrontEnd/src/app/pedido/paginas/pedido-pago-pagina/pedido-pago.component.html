@@ -1,51 +1,40 @@
 <!-- Seccion de Pago -->
 
-<section class="seccion-pago row">
-
-    <h2>Ingrese una tarjeta para efectuar el pago</h2>
+<h2 class="titulo-seccion">Ingrese una tarjeta para efectuar el pago</h2>
     
-    <!-- Formulario Tarjeta -->
-    <div class="col-lg-8">    
+<div class="formulario-contenedor">  
+    <form class="formulario-tarjeta" action="">     
+            <div class="input-contenedor">
+                <label for="numeracion-tarjeta" class="form-label">Número de tarjeta</label>
+                <input type="text" class="form-control" id="numeracion-tarjeta">
+            </div>  
 
-        <div class="pago-contenedor">  
-            <form class="formulario-tarjeta" action="">     
-                    <div class="input-contenedor">
-                        <label for="numeracion-tarjeta" class="form-label">Número de tarjeta</label>
-                        <input type="text" class="form-control" id="numeracion-tarjeta">
-                    </div>  
-
-                    <div class="input-contenedor">
-                        <label for="enombre-apellido" class="form-label">Nombre y apellido</label>
-                        <input type="text" class="form-control" id="nombre-apellido">
-                    </div>
-
-                    <div class="input-contenedor">
-                        <label for="vencimiento" class="form-label">Fecha de vencimiento</label>
-                        <input type="text" class="form-control" id="vencimiento">
-                    </div>
-
-                    <div class="input-contenedor">
-                        <label for="codigo-seguridad" class="form-label">Código de seguridad</label>
-                        <input type="text" class="form-control" id="codigo-seguridad">
-                    </div>
-
-                    <div class="input-contenedor">
-                        <label for="documento" class="form-label">DNI del titular de la tarjeta</label>
-                        <input type="text" class="form-control" id="documento">
-                    </div>
-
-                    <button class="btn btn-primary formulario-tarjeta-sumbit" 
-                            type="submit" 
-                            >
-                            Confirmar compra
-                    </button>        
-            </form> 
-
-            <div class="tarjeta-contenedor">  
-                <div class="tarjeta-card rounded"></div>
+            <div class="input-contenedor">
+                <label for="enombre-apellido" class="form-label">Nombre y apellido</label>
+                <input type="text" class="form-control" id="nombre-apellido">
             </div>
-        </div>
 
-    </div>
+            <div class="input-contenedor">
+                <label for="vencimiento" class="form-label">Fecha de vencimiento</label>
+                <input type="date" class="form-control" id="vencimiento">
+            </div>
 
-</section>
+            <div class="input-contenedor">
+                <label for="codigo-seguridad" class="form-label">Código de seguridad</label>
+                <input type="text" class="form-control" id="codigo-seguridad">
+            </div>
+
+            <div class="input-contenedor">
+                <label for="documento" class="form-label">DNI del titular</label>
+                <input type="text" class="form-control" id="documento">
+            </div>
+
+            <button class="btn btn-primary formulario-tarjeta-boton" 
+                    type="submit" 
+                    >
+                    Confirmar Pago
+            </button>        
+            
+            <div class="tarjeta-card rounded"></div>
+    </form> 
+</div>   

@@ -48,6 +48,8 @@ export class ServicioValidaciones {
                     return 'Debes ser mayor de edad para registrarte.'
                 case 'emailEnUso':
                     return 'Esta dirección de correo electrónico ya está en uso.'
+                case 'usuarioNoExiste':
+                    return 'El correo que proporcionó no corresponde a ningún usuario registrado.'
             }
         }
 

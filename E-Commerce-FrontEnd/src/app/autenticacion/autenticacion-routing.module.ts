@@ -5,6 +5,7 @@ import { AutenticacionLayoutPaginaComponent } from './paginas/autenticacion-layo
 
 import { RegistroPaginaComponent } from './paginas/registro-pagina/registro-pagina.component';
 import { IngresoPaginaComponent } from './paginas/ingreso-pagina/ingreso-pagina.component';
+import { RecuperarPasswordComponent } from './paginas/recuperar-password-pagina/recuperar-password.component';
 
 const routes: Routes = [
     {
@@ -18,6 +19,10 @@ const routes: Routes = [
             {
                 path: 'registro',
                 component: RegistroPaginaComponent,
+            },
+            {
+                path: 'recuperar-password',
+                component: RecuperarPasswordComponent,
             },
             {
                 path: '**',

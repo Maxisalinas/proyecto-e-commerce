@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AbstractControl, AsyncValidator, ValidationErrors } from '@angular/forms';
-import { delay, map, Observable, of, tap } from 'rxjs';
+import { delay, map, Observable } from 'rxjs';
 
 import { environments } from '../../enviroments/environments';
 import { ValidarEmailResponse } from '../interfaces/validar-email-response';
@@ -21,8 +21,22 @@ export class ValidadorEmail implements AsyncValidator {
 
         return this.httpClient.get<ValidarEmailResponse>( `${ this.urlBase }/Auth/ValidarDisponibilidadEmail?email=${ email }`)
             .pipe(
-                delay(600),
+                delay(1000),
                 map(response => response.disponible ? null : { emailEnUso: true })
+                
+            )
+    
+    }
+
+    
+    usuarioExistente( control: AbstractControl ): Observable<ValidationErrors | null > {
+
+        const email = control.value;
+
+        return this.httpClient.get<ValidarEmailResponse>( `${ this.urlBase }/Auth/ValidarDisponibilidadEmail?email=${ email }`)
+            .pipe(
+                delay(1000),
+                map(response => response.disponible ? { usuarioNoExiste: true } : null )
                 
             )
     

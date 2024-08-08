@@ -1,64 +1,56 @@
-/* SECCION DE PAGO */
-
-.seccion-pago {
-    padding: 3rem;
-}
 
 /* Formulario Tarjeta */
 
-.pago-contenedor {
-    height: 800px;
-    display: flex;
+.titulo-seccion {
+    margin-top: 32px;
+}
+
+
+.formulario-contenedor {
+    height: 700px;
+    width: 100%;
     background-color: #e6e6e6;
     padding: 48px;
     margin-bottom: 2rem;
+
 }
 
 
 .formulario-tarjeta {
-    height: 700px;
-    padding: 48px;
-    background-color: white;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-form {
-    width: 50%;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-    
+    justify-content: space-between;
+    background-color: white;
 }
 
+
 .input-contenedor {
-    width: 100%;
+    width: 50%;
+    margin-bottom: 1rem;
 }
 
 .input-contenedor #vencimiento {
-    width: 50% !important; 
+    width: 140px; 
 }
 
 .input-contenedor #codigo-seguridad {
-    width: 50% !important; 
+    width: 50px; 
 }
 
-.formulario-tarjeta-sumbit {
+.formulario-tarjeta button {
     margin-top: 2rem;
     width: 100%;
 }
 
-.tarjeta-contenedor {
-    width: 50%;
-    margin-left: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .tarjeta-card {
-    width: 300px;
-    height: 180px;
+    width: 50%;
+    min-height: 160px !important;
+    position: relative;
+    top: -320px;
+    right: -240px;
     background-color: gray;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -66,26 +58,22 @@ form {
 
 /* RESPONSIVE */
 @media screen and (max-width: 767px) {
-    .tarjeta-contenedor {
+    .tarjeta-card {
         display: none;
     }
+
+    .input-contenedor {
+        min-width: 100%;
+    }
+    
 }
 
-@media screen and (max-width: 992px) {
 
-    .compra-card {
-        flex-direction: column;
-    }
-    .compra-card p {
-        margin-bottom: 0.2rem;
+@media screen and (min-width: 1400px) {
+
+    .formulario-contenedor {
+        width: 85%;
     }
 
-    .compra-detalle-item {
-        width: 80%;
-        padding: 0 0 1.5rem 2rem;
-    }
-
-    .compra-imagen {
-        align-self: center;
-    }
 }
+
