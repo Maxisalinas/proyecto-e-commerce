@@ -7,6 +7,7 @@ import { PedidoLayoutComponent } from './paginas/pedido-layout/pedido-layout.com
 import { PedidoPagoComponent } from './paginas/pedido-pago-pagina/pedido-pago.component';
 import { PedidoPickupComponent } from './paginas/pedido-pickup-pagina/pedido-pickup.component';
 import { ResumenCompraComponent } from './componentes/resumen-compra/resumen-compra.component';
+import { CarritoComponent } from './componentes/carrito/carrito.component';
 
 @NgModule({
   declarations: [
@@ -14,12 +15,16 @@ import { ResumenCompraComponent } from './componentes/resumen-compra/resumen-com
     PedidoPickupComponent,
     PedidoPagoComponent,
     ResumenCompraComponent,
+    CarritoComponent,
 
   ],
   imports: [
     CommonModule,
     PedidoRoutingModule,
     CompartidoModule,
+  ],
+  exports: [
+    CarritoComponent
   ]
 })
 export class PedidoModule { }

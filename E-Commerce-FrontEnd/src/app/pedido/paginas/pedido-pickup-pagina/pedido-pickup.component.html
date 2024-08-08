@@ -25,7 +25,13 @@
                             <span  class="pickup-card-titulo">{{ pickup.nombre }}</span>
                             <span class="pickup-card-descripcion">{{ pickup.direccion}}</span>
                             <span class="pickup-card-descripcion">Horario: {{ pickup.horario }}</span>
-                            <button class="btn btn-primary"  [ngClass]="{ 'pickup-card-boton-inactivo': pickup !== pickUpSeleccionadoActualmente }">Seleccionar</button>
+
+                            <button class="btn btn-primary"  
+                                    [ngClass]="{ 'pickup-card-boton-inactivo': pickup !== pickUpSeleccionadoActualmente }"
+                                    (click)="confirmarPickUp(pickup)"
+                                    >
+                                    Seleccionar
+                            </button>
                     </div>
 
                 </div>

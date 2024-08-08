@@ -11,6 +11,7 @@ import { CardComponent } from './componentes/card/card.component';
 import { OrdenarBusquedaComponent } from './componentes/ordenar-busqueda/ordenar-busqueda.component';
 import { PaginadorComponent } from './componentes/paginador/paginador.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PedidoModule } from '../pedido/pedido.module';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     CompartidoModule,
     ProductosRoutingModule,
+    PedidoModule,
   ],
   exports: [
   ]

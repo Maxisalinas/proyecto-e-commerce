@@ -81,14 +81,6 @@ export class ListaPaginaComponent implements OnInit, OnDestroy {
     }   
 
 
-
-
-
-
-
-
-
-
     
     ngOnDestroy(): void {
         this.suscrpcionCriterioBusqueda.unsubscribe();

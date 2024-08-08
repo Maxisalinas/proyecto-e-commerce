@@ -1,0 +1,46 @@
+
+<button class="carrito-toggler btn btn-primary" 
+        type="button" 
+        data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvascarrito" 
+        >
+        <i class="bi bi-cart3 carrito-icono" ></i>
+</button>
+
+<div class="offcanvas offcanvas-start" 
+      id="offcanvascarrito"
+      data-bs-scroll="true" 
+      data-bs-backdrop="false" 
+      tabindex="-1" >
+
+    <div class="offcanvas-header">
+        <i class="bi bi-cart3 carrito-icono"></i>
+        <h5 class="carrito-titulo">Tu Carrito</h5>
+        <button 
+            class="btn-close" 
+            type="button" 
+            data-bs-dismiss="offcanvas">
+        </button>
+    </div>
+
+    <div class="offcanvas-body">
+            <div class="carrito-producto" *ngFor="let producto of carrito; let i = index">
+                <img class="carrito-producto-imagen" [src]="producto.img" >
+                <span>{{ producto.modelo }}</span>
+                <span>Talle {{ producto.talle }}</span>
+                <span class="carrito-producto-precio">{{ producto.precio | currency }}</span>  
+                <button class="btn-close carrito-producto-eliminar" (click)="eliminarProducto( i )"></button>
+            </div>
+            <span class="carrito-precio-total">Precio Total: <span>{{ this.precioTotal | currency }}</span></span>
+            <button class="btn btn-primary carrito-boton-pagar" 
+                    [disabled]="carrito.length < 1"
+                    routerLink="/pedido/pickup"
+                    >
+                    Confirmar Compra
+            </button>
+              
+    </div>
+
+ 
+
+</div>

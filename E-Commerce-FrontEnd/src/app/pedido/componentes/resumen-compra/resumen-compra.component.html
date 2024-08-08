@@ -1,24 +1,17 @@
-<!-- Resumen de compra -->
-
 <div class="resumen-compra-contenedor">
+
     <div class="resumen-compra-card">
 
-        <h5>Resumen de compra</h5>
+        <h5 class="resumen-compra-titulo">Resumen de compra</h5>
         
-        <!-- Listado -->
         <hr>   
-        <div class="resumen-compra-item">
-            <p>Producto 1</p><span>$ 100.000</span>
-        </div>   
-
-        <div class="resumen-compra-item">
-            <p>Producto 2</p><span>$ 150.000</span>
+        <div class="resumen-compra-item" *ngFor="let producto of productosTomados">
+            <p>{{ producto.modelo }}</p><span>$ {{ producto.precio }}</span>
         </div>   
         
-        <!-- Total -->
         <hr>
         <div class="resumen-compra-item">
-            <p>Total</p><span>$ 250.000</span>
+            <p>Total</p><span>$ {{ precioTotal }}</span>
         </div>
 
     </div>

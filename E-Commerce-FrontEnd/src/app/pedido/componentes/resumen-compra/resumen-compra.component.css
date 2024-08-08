@@ -1,5 +1,9 @@
 /* Resumen de compra */
 
+.resumen-compra-titulo {
+    font-size: 20px;
+}
+
 .resumen-compra-contenedor {
     display: flex;
     justify-content: center;
@@ -17,24 +21,14 @@
     padding: 2rem;
     margin-top: 48px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
-    font-size: small;
+
 }
 
 .resumen-compra-item {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 /* RESPONSIVE */
 
-/* @media screen and (max-width: 1200px) {
-    .resumen-compra-card {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .resumen-compra-card {
-        width: 80%;
-    }
-} */

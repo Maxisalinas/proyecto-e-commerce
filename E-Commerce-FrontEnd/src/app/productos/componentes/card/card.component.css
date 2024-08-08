@@ -1,7 +1,9 @@
 /* CARD */
 
 .card {
+    margin: auto;
     margin-bottom: 2rem;
+    max-width: 300px;
     
 }
 

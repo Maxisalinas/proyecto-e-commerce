@@ -3,7 +3,7 @@ import { HttpClient} from '@angular/common/http';
 import { BehaviorSubject, map, Observable, tap  } from 'rxjs';
 
 import { environments } from '../../enviroments/environments';
-import { ServicioToken } from './token.service';
+import { ServicioLocalStorage } from './token.service';
 import { CredencialesIngreso } from '../interfaces/credenciales-ingreso.interface';
 import { LoginResponse } from '../interfaces/ingreso-response.interface';
 import { Router } from '@angular/router';
@@ -21,7 +21,7 @@ export class ServicioAutenticacion {
 
 
     constructor( private httpClient: HttpClient,
-                 private servicioToken: ServicioToken,
+                 private servicioLocalStorage: ServicioLocalStorage,
                  private router: Router,
     ) { }
 
@@ -33,7 +33,7 @@ export class ServicioAutenticacion {
                 tap( response => {
 
                     if (response.authResult.statusCode === 200) {
-                       this.servicioToken.guardarElementoLocalStorage('tokenAutenticacion', response.authResult.accessToken );
+                       this.servicioLocalStorage.guardarElementoLocalStorage('tokenAutenticacion', response.authResult.accessToken );
                      
                        this.logeado.next(true);
                        this.router.navigate(['/home']);
@@ -44,12 +44,12 @@ export class ServicioAutenticacion {
     } 
 
     cerrarSesion():void {
-        this.servicioToken.limpiarLocalStorage();
+        this.servicioLocalStorage.limpiarLocalStorage();
         this.logeado.next(false);
     }
 
     verificarAutenticacion(): boolean {
-        if(this.servicioToken.obtenerElementoLocalStorage('tokenAutenticacion')) {
+        if(this.servicioLocalStorage.obtenerTokenLocalStorage('tokenAutenticacion')) {
 
             this.logeado.next(true);
             return true;

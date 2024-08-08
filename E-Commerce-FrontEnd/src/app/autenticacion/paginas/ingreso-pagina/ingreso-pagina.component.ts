@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 export class IngresoPaginaComponent {
 
     public formularioIngreso: FormGroup = new FormGroup({
-        correoElectronico: new FormControl('', Validators.required  ),
+        correoElectronico: new FormControl('', [ Validators.required ] ),
         password: new FormControl('', [ Validators.required ] ),
     })
 

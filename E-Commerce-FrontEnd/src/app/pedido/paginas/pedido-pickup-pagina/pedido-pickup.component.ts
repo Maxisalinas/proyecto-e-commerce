@@ -1,8 +1,9 @@
-import { Component, ElementRef, OnInit, ViewChild, ViewChildren } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 import { environments } from '../../../enviroments/environments';
 import { ServicioPickUps } from '../../servicios/pickup.service';
 import { PickUp } from '../../interfaces/pickup.interface';
+import { ServicioPedido } from '../../servicios/pedido.service';
 
 
 declare var google: any;
@@ -106,8 +107,9 @@ export class PedidoPickupComponent implements OnInit {
     public pickUpSeleccionadoActualmente?: PickUp;
 
 
-
-    constructor( private servicioPickUps: ServicioPickUps ) {}
+    constructor( private servicioPickUps: ServicioPickUps,
+                 private servicioPedido: ServicioPedido
+     ) {}
     
     ngOnInit() {
         // this.servicioPickUps.obtenerPickUps()
@@ -240,6 +242,12 @@ export class PedidoPickupComponent implements OnInit {
 
         this.pickUpSeleccionadoActualmente = pickup;
         
+    }
+
+    confirmarPickUp( pickup: PickUp ) {
+
+        this.servicioPedido.generarPedido(pickup);
+
     }
 
 

@@ -7,24 +7,12 @@ import { Observable } from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class ServicioPickUps {
 
-
-
-
-
-
     constructor( private httpClient: HttpClient ) { }
 
 
     obtenerPickUps(): Observable<PickUp[]> {
         return this.httpClient.get<PickUp[]>('')
     } 
-
-
-
-
-
-
-
 
     
 }
