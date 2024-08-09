@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { ServicioCarrito } from '../../servicios/carrito.service';
 import { ProductoTomado } from '../../interfaces/pedido.interface';
-import { PickUp } from '../../interfaces/pickup.interface';
-
 
 
 @Component({

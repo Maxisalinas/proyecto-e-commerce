@@ -22,14 +22,14 @@ export class RecuperarPasswordComponent {
 
     elCampoEsValido ( campo: string ) {
         
-      return this.servicioValidaciones.elCampoEsValido( this.formRecuperarPassword, campo );
+        return this.servicioValidaciones.elCampoEsValido( this.formRecuperarPassword, campo );
 
-  }
+    }
 
-  obtenerErrorDeCampo( campo: string ): string | null { 
-      
-      return this.servicioValidaciones.obtenerErrorDeCampo( this.formRecuperarPassword, campo)
-  }
+    obtenerErrorDeCampo( campo: string ): string | null { 
+        
+        return this.servicioValidaciones.obtenerErrorDeCampo( this.formRecuperarPassword, campo)
+    }
 
 
 

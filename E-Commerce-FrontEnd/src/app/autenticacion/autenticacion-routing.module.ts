@@ -5,7 +5,9 @@ import { AutenticacionLayoutPaginaComponent } from './paginas/autenticacion-layo
 
 import { RegistroPaginaComponent } from './paginas/registro-pagina/registro-pagina.component';
 import { IngresoPaginaComponent } from './paginas/ingreso-pagina/ingreso-pagina.component';
-import { RecuperarPasswordComponent } from './paginas/recuperar-password-pagina/recuperar-password.component';
+import { RecuperarPasswordComponent } from './paginas/recuperar-password/recuperar-password.component';
+import { FeedbackRestablecerPasswordComponent } from './paginas/feedback-restablecer-password/feedback-restablecer-password.component';
+import { RestablecerPasswordComponent } from './paginas/restablecer-password/restablecer-password.component';
 
 const routes: Routes = [
     {
@@ -23,6 +25,15 @@ const routes: Routes = [
             {
                 path: 'recuperar-password',
                 component: RecuperarPasswordComponent,
+            },
+
+            {
+                path: 'feedback-restablecer-password',
+                component: FeedbackRestablecerPasswordComponent,
+            },
+            {
+                path: 'restablecer-password',
+                component: RestablecerPasswordComponent,
             },
             {
                 path: '**',

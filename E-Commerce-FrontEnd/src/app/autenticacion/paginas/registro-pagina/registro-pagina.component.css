@@ -37,7 +37,7 @@ button {
 }
 
 input {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 
 .ng-touched.ng-invalid:is(input,textarea),
